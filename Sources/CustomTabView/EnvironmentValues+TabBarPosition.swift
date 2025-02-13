@@ -21,7 +21,7 @@ public enum TabBarPosition {
 }
 
 private struct TabBarPositionEnvironmentKey: EnvironmentKey {
-    static let defaultValue: TabBarPosition = .edge(.bottom)
+    static let defaultValue: TabBarPosition = .floating(.bottom)
 }
 
 public extension EnvironmentValues {
